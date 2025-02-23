@@ -1,0 +1,54 @@
+:root {
+    --primary-clr-heading: hsl(14, 45%, 36%);
+    --primary-clr-heading-special:hsl(332, 51%, 32%);
+    --font-family-primary: ; 
+
+    --ff-heading: var(--primary-clr-heading);
+    --ff-heading-special: var(--primary-clr-heading-special)
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title-main {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.section-title {
+    color: var(--ff-heading);
+    font-family:monospace;
+}
+
+.section-title-special {
+    color: var(--ff-heading-special);
+    font-family:monospace;
+}
+
+.prose {
+    font-weight: 400;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.list-style {
+    line-height: 30px;
+}
